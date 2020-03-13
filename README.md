@@ -1,4 +1,4 @@
-# hassio-addon-syncthing
+# Syncthing Hass.io Add-on
 
 **Pre-requirement**
 
