@@ -1,0 +1,15 @@
+{
+    "name": "Syncthing",
+    "version": "1.3.4",
+    "slug": "syncthing",
+    "description": "Open Source Continuous File Synchronization",
+    "url": "https://github.com/syncthing/syncthing",
+    "startup": "system",
+    "boot": "auto",
+    "options": {},
+    "schema": {},
+    "ports": {"8384/tcp": 8384, "22000/tcp": null, "21027/udp": 21027},
+    "map": ["share:rw"],
+    "webui": "http://[HOST]:[PORT:8384]",
+    "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"]
+}
