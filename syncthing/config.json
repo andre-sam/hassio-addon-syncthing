@@ -9,7 +9,7 @@
     "options": {
       "data_path": "/share/syncthing/data",
       "config_path": "/share/syncthing/config",
-      "gui-address": 0.0.0.0:8384,
+      "gui-address": "0.0.0.0:8384",
       "logflags": 0
     },
     "schema": {},
