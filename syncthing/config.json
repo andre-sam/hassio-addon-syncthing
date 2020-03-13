@@ -6,7 +6,12 @@
     "url": "https://github.com/syncthing/syncthing",
     "startup": "system",
     "boot": "auto",
-    "options": {},
+    "options": {
+      "data_path": "/share/syncthing/data",
+      "config_path": "/share/syncthing/config",
+      "gui-address": "0.0.0.0:8384",
+      "logflags": "0"
+    },
     "schema": {},
     "ports": {"8384/tcp": 8384, "22000/tcp": null, "21027/udp": 21027},
     "map": ["share:rw"],
