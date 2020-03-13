@@ -5,7 +5,7 @@ ARG BUILD_VERSION
 ARG BUILD_ARCH
 
 ENV LANG C.UTF-8
-ENV HOME=/backup/syncthing/data
+ENV HOME=/share/syncthing/data
 
 RUN apk add --no-cache -U --virtual .build-deps curl tar && SYNCTHING_VERSION=v${BUILD_VERSION%-*} \
  && if [ ${BUILD_ARCH} == "armhf" -o ${BUILD_ARCH} == "armv7" ]; then BUILD_ARCH=arm;\
