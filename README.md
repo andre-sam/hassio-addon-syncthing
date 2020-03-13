@@ -2,8 +2,8 @@
 
 **Pre-requirement**
 
-Data is stored under /share/syncthing/data
-Mount your preferred storage, eg.: zfs set mountpoint=/usr/share/hassio/share/syncthing/data tank/syncthing/data
+1) Data is stored under /share/syncthing/data
+2) Mount your preferred storage, eg.: zfs set mountpoint=/usr/share/hassio/share/syncthing/data tank/syncthing/data
 
 **Installation**
 
